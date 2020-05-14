@@ -1,3 +1,6 @@
+body{
+	font-family: 'Happy Monkey', Arial, cursive;
+}
 .container {
 	width: 800px;
 	margin: 0px auto;
@@ -21,4 +24,23 @@ h2 {
 }
 h3 {
 	color: #474747;
+}
+.hero{
+	background-color: #f4f4f4;
+	text-align: center;
+	padding-bottom: 10px;
+}
+li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+span{
+	color: #F4B400;
+	font-size: 25px;
+}
+footer{
+	text-align: center;
+}
+.rating{
+	text-align: center;
 }
