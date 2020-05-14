@@ -1,13 +1,17 @@
 img {
   width: 50px;
 }
-body {font-family: 'Pangolin', Arial;
-color: red;
+body {
+	font-family: 'Pangolin', Arial;
+	color: red;
 }
 
+span{
+	text-align: center;
+}
 #box {
 	position: absolute;
-	width: 1200px;
+	width: 1400px;
 	height: 2000px;
 	border:  2px;
 	background-color: lightyellow;
@@ -65,11 +69,17 @@ color: red;
 }
 
 /* Face 2*/
+#face2 {
+	position: absolute;
+	font-size: 50px;
+	right: 200px;
+	top: 800px;
+}
 
 #hair2 {
 	position: absolute;
 	top: 600px;
-	left: 30px;
+	left: 20px;
 	width: 350px;
 	z-index: 100;
 }
@@ -96,6 +106,12 @@ color: red;
 
 }
 /* Face 3*/
+#face3 {
+	position: absolute;
+	font-size: 50px;
+	right: 200px;
+	top: 1400px;
+}
 #hat{
 	position: absolute;
 	top: 1200px;
