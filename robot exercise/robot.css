@@ -1,10 +1,17 @@
 img {
   width: 50px;
 }
+body {font-family: 'Pangolin', Arial;
+color: red;
+}
+
 #box {
-	width: 800px;
+	position: absolute;
+	width: 1200px;
 	height: 2000px;
 	border:  2px;
+	background-color: lightyellow;
+	left: 50px;
 }
 #face {
 	top: 30px;
@@ -12,6 +19,12 @@ img {
   width: 400px;
 }
 /* Face 1*/
+#face1 {
+	position: absolute;
+	font-size: 50px;
+	right: 200px;
+	top: 250px;
+}
 #hair1 {
 	position: absolute;
 	left: 30px;
@@ -42,6 +55,15 @@ img {
 	z-index: 80;
 
 }
+#ears2 {
+	position: absolute;
+	top: 240px;
+	left: -10px;
+	width: 430px;
+	z-index: 80;
+
+}
+
 /* Face 2*/
 
 #hair2 {
